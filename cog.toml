@@ -2,11 +2,20 @@ pre_bump_hooks = [
     """
     sh -c '[[ "$(git rev-parse --abbrev-ref HEAD)" == "main" ]] && echo "On branch main" || exit 1'
     """,
-    "mvn package",
+    "mvn package -q",
     "mvn versions:set -DnewVersion={{version}}",
 ]
 
 post_bump_hooks = [
     "git push",
     "git push origin {{version}}",
+]
+
+[changelog]
+remote = "github.com"
+owner = "oknozor"
+repository = "pokemon_api"
+template = "remote"
+authors = [
+    { signature = "Paul Delafosse", username = "oknozor" }
 ]
