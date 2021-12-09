@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [0.3.0](https://github.com/oknozor/pokemon_api/compare/0.2.0..0.3.0) - 2021-12-09
+#### Features
+- add debug print for {{latest}} release - ([7a9a94d](https://github.com/oknozor/pokemon_api/commit/7a9a94d1567f4ab82575043d88b3d17763e96ed1)) - [@oknozor](https://github.com/oknozor)
+- - -
+
 ## [0.2.0](https://github.com/oknozor/pokemon_api/compare/0.1.0..0.2.0) - 2021-12-08
 #### Features
 - perform releases with github action - ([5d34fe6](https://github.com/oknozor/pokemon_api/commit/5d34fe6cddeeaf8b66dc1cca378561979f5d63d8)) - [@oknozor](https://github.com/oknozor)
